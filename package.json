@@ -1,0 +1,14 @@
+{
+  "name": "id-validator",
+  "version": "1.0.0",
+  "description": "Validating South African Identity Number",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "SI Malapane",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  }
+}

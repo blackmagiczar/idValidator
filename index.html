@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SA ID Number Validator</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div>
+        <input
+          type="text"
+          name="identity"
+          id="identity"
+          placeholder="Enter ID Number"
+          maxlength="13"
+          oninput="validateID()"
+        />
+        <p id="length">Length: 0</p>
+        <p id="errorOut"></p>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
